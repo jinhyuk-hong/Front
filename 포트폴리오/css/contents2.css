@@ -1,0 +1,370 @@
+@charset "utf-8";
+#nav1{
+    width:100%;
+    min-width: 2200px;
+    height:80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 40;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#nav1 ul{
+
+   width: 1200px;
+   height: 80px;
+    margin:0 auto;
+   
+   
+}
+#nav1 ul li{
+    margin:0 auto;
+    width:200px;
+    height:80px;
+     float: left; 
+    text-align: center;
+    line-height: 80px;
+   
+}
+#nav1 ul li a{
+    display: block;
+    color: #ffffff;
+}
+#nav1 ul li a:hover{
+    font-weight: bold;
+    font-size:20px;
+    border-top:3px solid #ffffff; ;
+    
+}
+#new3_6{
+    clear: both;
+    width: 1500px;
+    height:600px;
+    margin:20px auto;
+}
+#new3_6 h4{
+    color: white;
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 20px;
+   
+}
+#new3_6 div{ 
+    width: 500px;
+    height: 300px;
+    float: left;
+    position: relative;
+    background: url(../images/bg1.jpg) no-repeat 0 center;
+    box-sizing: border-box;
+}
+#new3_6 div img{
+    width: 500px;
+    height: 300px;
+    margin-top:30px;
+    margin-left:30px;
+}
+#new3_6 div p{
+    color: white;
+    font-size: 15px;
+    margin-left:30px;
+}
+#new3_6 div p:nth-of-type(2){
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    margin:0 auto;
+    cursor: pointer;
+}
+#new3_6 div p:nth-of-type(2):hover{
+    background: #333333;
+    color: white;
+}
+#new3_6 div span{   
+    font-weight: bold;
+    margin-bottom:10px;
+    height: 15px;
+    display: block;
+    margin-top: 20px;
+}
+#new3_6 div ul{
+    width: 200px;
+    height: 100px;
+    margin-top:20px;
+}
+#new3_6 div ul li{
+    color: white;
+    line-height: 2em;
+    font-size: 12px;
+}
+#new3_7{
+    clear: both;
+    width: 1500px;
+    height: 700px;
+    margin:10px auto;
+}
+#new3_7 h4{
+    color: white;
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top:30px
+}
+#new3_7 ul{
+    width: 1500px;
+    height: 600px;
+    margin-top:30px;
+
+    
+}
+#new3_7 ul li{
+    width: 500px;
+    height: 300px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+   
+}
+#new3_7 ul li img{
+    width: 500px;
+    height: 300px;
+}
+#new3_7 ul li p{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 30;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 0;
+    
+}
+#new3_8{
+    clear: both;
+    width:1500px;
+    height: 800px;
+    margin: 10px auto;
+    position: relative;
+
+}
+#new3_8 h4{
+    color: white;
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top:30px;
+   
+}
+#new3_8 div{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    background-color: #7d423e;
+    cursor: pointer;
+}
+#new3_8 span{
+    display: block;
+   
+    width: 300px;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+   text-indent: 20px;
+    margin-top: 30px;
+}
+#new3_8 span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#new3_8 div >h5{
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-top:20px;
+   
+}
+#new3_8 div p{
+    font-size: 20px;
+    color: #ffffff;
+    height: 120px;
+    line-height: 3em;
+    margin: 30px 30px;
+}
+#new3_8 div ul{
+    width: 750px;
+    height: 80px;
+   
+}
+#new3_8 div ul li{
+    line-height: 2em;
+    height: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 30px 30px;
+}
+#new3_8 div img{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    right:-10%;
+    bottom:0;
+    transform: translate(30%,20%);
+}
+#new3_9{
+    clear: both;
+    width: 1500px;
+    height: 400px;
+    margin: 30px auto;
+    
+}
+#new3_9 h4{
+    color: white;
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top:30px
+}
+#new3_9 div{
+    float: left;
+    width: 500px;
+    height: 330px;
+    position: relative;
+    cursor: pointer;
+}
+
+#new3_9 div img{
+    width: 500px;
+    height: 330px;
+}
+#new3_9 div h5{
+    font-size: 20px;
+    color: #ffffff;
+    width: 500px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+}
+#new3_9 >div >p{
+    font-size: 15px;
+    color: #ffffff;
+    width: 500px;
+    height: 80px;
+    line-height: 15px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#new3_10{
+    clear: both;
+    width: 1500px;
+    height: 1000px;
+    margin: 10px auto;
+   
+}
+#new3_10 h4{
+    color: white;
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top:30px
+}
+#new3_10 ul.info1{
+    width: 1500px;
+    height: 130px;
+   margin-top:30px;
+}
+#new3_10 ul.info1 li{
+    width: 1500px;
+    height: 30px;
+    font-size:15px;
+    line-height: 15px;
+    color: white;
+    list-style: circle;
+    margin-left: 30px;
+}
+#new_info{
+    width: 1500px;
+    height: 800px;
+}
+#new_info img{
+    width: 890px;
+    height: 800px;
+    float: left;
+}
+#new_info ul{
+    width: 610px;
+    height: 800px;
+   
+    float: left;
+}
+#new_info ul li{
+    width: 610px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size:18px;
+    text-indent: 30px;
+    line-height: 80px;
+}
+#new_info ul li:last-child{
+    border-bottom: none;
+    cursor: pointer;
+}
+#new_info ul li:last-child:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+#new_info ul li span{
+    float: right;
+    font-weight: bold;
+    display: block;
+}
+#new3_11{
+    width: 1500px;
+    height: 150px;
+    margin: 50px auto;
+
+}
+#new3_11 p{
+    width: 200px;
+    height: 150px;
+    background-color: #666666;
+    color: #ffffff;
+    border-radius: 30px;
+    float: left;
+    margin-left: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#new3_11 p:hover{
+    background-color: #ffffff;
+    color: #666666;
+}
+

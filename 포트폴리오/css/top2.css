@@ -1,0 +1,202 @@
+@charset "utf-8";
+body{
+    background-color:rgba(0, 0, 0, 0.8);
+}
+#notice{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 50;
+}
+#notice p{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    z-index: 50;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2em;
+    padding-top:40px;
+    box-sizing: border-box;
+}
+#new3{ /*new3 모델정보 눌렀을떄 연결되는 페이지 탑 부분  */
+    width:1920px;
+     height:auto;
+     position:relative;  
+    margin:0 auto;
+}
+
+#new3_h{
+    width: 1920px;
+    height:700px;
+    margin:0 auto;
+    position:relative;
+}
+#top_new{
+    width: 1920px;
+    height: 700px;
+    position:absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%,0);
+    background:url(../images/bmw17.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+    
+
+#new3_1{
+    width:1800px;
+    margin:20px auto;
+    height:180px;
+   
+   
+}
+#new3_1 h1{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top:30px;
+    margin-left: 80px;
+    
+}
+#new3_1 h1 img{
+    width: 80px;
+    height:80px;
+}
+#new3_1 h1 a{
+    width:80px;
+    height:80px;
+    display:block;
+    
+}
+#new3_1 ul{
+    width: 1450px;
+    height: 80px;
+    margin:0 auto;  
+}
+#new3_1 ul li{
+    width: 290px;
+    height: 80px;
+   text-indent: 100px;
+    float: right;
+    position: relative;
+}
+
+#new3_1 ul li a{
+    display: block;
+    width: 290px;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+
+}
+#new3_1 ul>li:hover>a{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+   
+}
+#new3_1 ul li>.subm{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 290px;
+    height: 600px;
+    border-left:1px dotted white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#new3_1 ul li>.subm:last-of-type{
+    border-right: 1px dotted white;
+}
+#new3_1 ul li>.subm li{
+    width: 290px;
+    height: 80px;
+}
+#new3_1 ul li>.subm li a{
+    display: block;
+    font-size: 15px;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    text-indent: 30px;
+}
+
+#new3_3{
+    clear: both;
+   
+    width: 1800px;
+    height: 370px;
+    margin: 0 auto;
+   
+}
+#new3_3 p{
+    width:350px;
+    height: 30px;
+    font-size:20px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    bottom:10px;
+    text-align: right; 
+    line-height: 30px;
+}
+#new3_3 h3{
+    color:white;
+    font-size: 45px;
+    height: 60px;
+    width:500px;
+    line-height: 60px;   
+    text-align: center;
+   
+    margin-left:15px;
+}
+#new3_3 h4{
+    color:white;
+    font-size: 25px;
+    height: 60px;
+    width:300px;
+    line-height: 60px;   
+    text-align: center;
+}
+#new3_4{
+  
+    width: 300px;
+    height: 100px;
+    float: left;
+   
+    
+}
+#new3_4 p{
+    color:white;
+    font-size: 25px;
+    height: 60px;
+   line-height: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+#new3_5{
+    width:500px;
+    height: 100px;
+    float: left;
+    
+   
+}
+#new3_5 p{
+    color:white;
+    font-size: 25px;
+    height: 60px;
+   line-height: 50px;
+    text-align: center;
+}
+#new3_4 p span, #new3_5 p span{
+    color:white;
+    font-size: 15px;
+}
